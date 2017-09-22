@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TestRelativeLayout</string>
+    <string name="textView1">Xin chào các bạn</string>
+    <string name="textView2">Xin chào các bạn 2</string>
+    <string name="textView3">Xin chào các bạn 3</string>
+    <string name="tenDangNhap">Tên đăng nhập</string>
+    <string name="dongY">Đồng ý</string>
+    <string name="soA">Nhập vào số a:</string>
+    <string name="soB">Nhập vào số b:</string>
+    <string name="tinh">Tính</string>
+</resources>

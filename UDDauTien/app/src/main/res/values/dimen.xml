@@ -1,0 +1,6 @@
+<resources>
+   <dimen name="marginLeft">32dp</dimen>
+   <dimen name="marginRight">32dp</dimen>
+   <dimen name="marginTop">32dp</dimen>
+    <dimen name="chieuRong">200dp</dimen>
+</resources>

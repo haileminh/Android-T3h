@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BTLesson_01</string>
+    <string name="photo">Photo</string>
+    <string name="personalName">Personal Name</string>
+    <string name="title">Title</string>
+    <string name="phone">Phone: </string>
+    <string name="Email">Email: </string>
+    <string name="Delete">Delete: </string>
+
+</resources>

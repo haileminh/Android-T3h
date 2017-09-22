@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="0"
+    android:stretchColumns="*">
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/cot1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:text="Cot    1" />
+
+        <TextView
+            android:id="@+id/cot2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cot 1" />
+
+        <TextView
+            android:id="@+id/cot3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cot 1" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/dong2Cot1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dong 2 Cot 1==" />
+
+        <TextView
+            android:id="@+id/dong2Cot2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:fontFamily="sans-serif"
+            android:text="Dong 2 Cot 1==" />
+    </TableRow>
+
+    <TableRow>
+
+    </TableRow>
+</TableLayout>

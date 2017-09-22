@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BTTest</string>
+    <string name="btnDongY">Đồng ý</string>
+    <string name="tenDangNhap">Tên đăng nhập</string>
+    <string name="soA">Mời bạn nhập số A</string>
+    <string name="soB">Mời bạn nhập số B</string>\
+    <string name="btnTinh">Tính</string>
+</resources>

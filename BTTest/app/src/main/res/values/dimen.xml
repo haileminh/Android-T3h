@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="chieuDai">200dp</dimen>
+    <dimen name="marginTop">32dp</dimen>
+    <dimen name="marginLeft">32dp</dimen>
+</resources>

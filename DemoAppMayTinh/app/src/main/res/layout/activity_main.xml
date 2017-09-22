@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:stretchColumns="*">
+
+    <TableRow>
+
+        <EditText
+            android:paddingRight="16dp"
+            android:gravity="right"
+            android:textColor="#FFF"
+            android:id="@+id/et_ketQua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="4"
+            android:editable="false"
+            android:paddingBottom="28dp"
+            android:paddingTop="28dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btn_null"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_span="3"
+            android:text="@null" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="1"
+            android:text="delete"
+            android:textColor="#FFF" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btn_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_span="1"
+            android:background="@drawable/changebackground"
+            android:padding="26dp"
+            android:text="7"
+            android:textColor="#FFF"
+            android:textSize="28dp" />
+
+        <Button
+            android:id="@+id/btn_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_span="1"
+            android:background="@drawable/changebackground"
+            android:padding="26dp"
+            android:text="8"
+            android:textColor="#FFF"
+            android:textSize="28dp" />
+
+        <Button
+            android:id="@+id/btn_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_span="1"
+            android:background="@drawable/changebackground"
+            android:padding="26dp"
+            android:text="9"
+            android:textColor="#FFF"
+            android:textSize="28dp" />
+
+        <Button
+            android:id="@+id/btn_chia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_span="1"
+            android:padding="26dp"
+
+            android:text="/"
+            android:textColor="#FFF"
+            android:textSize="28dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btn_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_span="1"
+            android:background="@drawable/changebackground"
+            android:padding="26dp"
+            android:text="6"
+            android:textColor="#FFF"
+            android:textSize="28dp" />
+
+        <Button
+            android:id="@+id/btn_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_span="1"
+            android:background="@drawable/changebackground"
+            android:padding="26dp"
+            android:text="5"
+            android:textColor="#FFF"
+            android:textSize="28dp" />
+
+        <Button
+            android:id="@+id/btn_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_span="1"
+            android:background="@drawable/changebackground"
+            android:padding="26dp"
+            android:text="4"
+            android:textColor="#FFF"
+            android:textSize="28dp" />
+
+        <Button
+
+            android:id="@+id/btn_nhan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="1"
+            android:padding="26dp"
+            android:text="x"
+            android:textColor="#FFF"
+            android:textSize="28dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+
+            android:id="@+id/btn_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_span="1"
+            android:background="@drawable/changebackground"
+            android:padding="26dp"
+            android:text="3"
+            android:textColor="#FFF"
+            android:textSize="28dp" />
+
+        <Button
+            android:id="@+id/btn_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_span="1"
+            android:background="@drawable/changebackground"
+            android:padding="26dp"
+            android:text="2"
+            android:textColor="#FFF"
+            android:textSize="28dp" />
+
+        <Button
+            android:id="@+id/btn_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_span="1"
+            android:background="@drawable/changebackground"
+            android:padding="26dp"
+            android:text="1"
+            android:textColor="#FFF"
+            android:textSize="28dp" />
+
+        <Button
+            android:id="@+id/btn_cong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="1"
+            android:padding="26dp"
+            android:text="+"
+            android:textColor="#FFF"
+            android:textSize="28dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btn_cham"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_span="1"
+            android:background="@drawable/changebackground"
+            android:padding="26dp"
+            android:text="."
+            android:textColor="#FFF"
+            android:textSize="28dp" />
+
+        <Button
+            android:id="@+id/btn_0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_span="1"
+            android:background="@drawable/changebackground"
+            android:padding="26dp"
+            android:text="0"
+            android:textColor="#FFF"
+            android:textSize="28dp" />
+
+        <Button
+            android:id="@+id/btn_bang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="1"
+            android:padding="26dp"
+            android:text="="
+            android:textColor="#FFF"
+            android:textSize="28dp" />
+
+        <Button
+            android:id="@+id/btn_tru"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="1"
+            android:padding="26dp"
+            android:text="-"
+            android:textColor="#FFF"
+            android:textSize="28dp" />
+    </TableRow>
+</TableLayout>

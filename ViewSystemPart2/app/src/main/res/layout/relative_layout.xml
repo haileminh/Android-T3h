@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tvApp"
+        android:text="@string/app_name"
+        android:layout_width="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:background="@android:color/holo_red_dark"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Lê Minh Hải"
+        android:layout_below="@+id/tvApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_alignParentRight="true"
+        android:text="BBBBBBBBBBBBB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Nhà phát triển"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:text="Nhà phát triển"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Nhà phát triển"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvNhaPhatTrien"
+        android:layout_centerInParent="true"
+        android:text="Nhà phát triển"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_alignLeft="@+id/tvNhaPhatTrien"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/tvNhaPhatTrien"
+        android:text="Nhà phát"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_alignRight="@+id/tvNhaPhatTrien"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvNhaPhatTrien"
+        android:text="phát triển"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:text="Nhà phát triển"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Nhà phát triển"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

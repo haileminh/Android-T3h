@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BTLesson_02</string>
+    <string name="email">E-mail address</string>
+    <string name="lock">******</string>
+    <string name="signIn">Sign in</string>
+    <string name="signInFace">Sign in with Facebook</string>
+    <string name="resgisterFace">Register with Facebook</string>
+    <string name="resgisterEmail">Register with Email</string>
+    <string name="login">Login</string>
+    <string name="signInTwitter">Sign in with Twitter</string>
+    <string name="forgot">Forgot password?</string>
+    <string name="newHer">New here? Sign Up</string>
+    <string name="insta">Instagam</string>
+    <string name="jimmy">Jmimmy - Son</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UDDauTien</string>
+    <string name="reminder">Reminder name</string>
+    <string name="done">Done</string>
+    <string name="tendangnhap">Tên đăng nhập</string>
+    <string name="btnDongY">Đồng ý</string>
+</resources>

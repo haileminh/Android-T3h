@@ -1,0 +1,5 @@
+<resources>
+   <dimen name="marginLeft">56dp</dimen>
+    <dimen name="marginTop">50dp</dimen>
+    <dimen name="chieuRong100">200dp</dimen>
+</resources>

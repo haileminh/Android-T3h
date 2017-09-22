@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    >
+    <TextView
+        android:id="@+id/vTenDangNhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tenDangNhap"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginTop="@dimen/marginTop"/>
+    <EditText
+        android:id="@+id/etTenDangNhap"
+        android:layout_width="@dimen/chieuRong100"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginLeft"
+        />
+    <Button
+        android:id="@+id/btnDongY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dongY"
+        android:layout_marginLeft="@dimen/marginLeft"/>
+    <TextView
+        android:id="@+id/vXuatThongBao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:text="@null"/>
+
+    <EditText
+        android:id="@+id/etSoa"
+        android:layout_width="@dimen/chieuRong100"
+        android:layout_height="wrap_content"
+        android:hint="@string/soA"/>
+    <EditText
+        android:id="@+id/etSob"
+        android:layout_width="@dimen/chieuRong100"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="@string/soB"/>
+    
+    <Button
+        android:id="@+id/btnTinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tinh"
+        />
+
+</LinearLayout>

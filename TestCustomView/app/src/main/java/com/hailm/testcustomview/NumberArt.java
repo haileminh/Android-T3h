@@ -1,19 +1,18 @@
-package com.hailm.customview;
+package com.hailm.testcustomview;
 
 import android.graphics.Canvas;
-import android.graphics.Color;
 import android.graphics.Paint;
 
 /**
- * Created by hai_l on 21/09/2017.
+ * Created by hai_l on 23/09/2017.
  */
 
 public class NumberArt {
     public static final int LEFT = 0;
-    public static final int UP = 1;
-    public static final int RIGHT = 2;
+    public static final int RIGHT = 1;
+    public static final int UP = 2;
     public static final int DOWN = 3;
-    public static final int SIZE = 169;
+    public static final int SIZE = 196;
 
     private int x;
     private int y;
@@ -38,25 +37,25 @@ public class NumberArt {
     public void move(int width, int height) {
         switch (orient) {
             case LEFT:
-                x -= 5;
+                x--;
                 if (x <= 0) {
                     orient = RIGHT;
                 }
                 break;
             case UP:
-                y -= 5;
+                y--;
                 if (y <= SIZE) {
                     orient = DOWN;
                 }
                 break;
             case RIGHT:
-                x += 5;
-                if (x > width - SIZE) {
+                x++;
+                if (x >= width - SIZE) {
                     orient = LEFT;
                 }
                 break;
             case DOWN:
-                y += 5;
+                y++;
                 if (y >= height) {
                     orient = UP;
                 }
@@ -64,20 +63,20 @@ public class NumberArt {
         }
     }
 
-    public void setX(int x) {
-        this.x = x;
-    }
-
     public int getX() {
         return x;
     }
 
-    public void setY(int y) {
-        this.y = y;
+    public void setX(int x) {
+        this.x = x;
     }
 
     public int getY() {
         return y;
+    }
+
+    public void setY(int y) {
+        this.y = y;
     }
 
     public int getOrient() {
@@ -92,7 +91,15 @@ public class NumberArt {
         return color;
     }
 
+    public void setColor(int color) {
+        this.color = color;
+    }
+
     public int getValue() {
         return value;
+    }
+
+    public void setValue(int value) {
+        this.value = value;
     }
 }

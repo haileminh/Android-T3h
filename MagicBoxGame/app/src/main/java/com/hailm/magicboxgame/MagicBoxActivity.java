@@ -75,7 +75,7 @@ public class MagicBoxActivity extends Activity implements View.OnClickListener {
         txtNumber.setText(number + "");
         if (number == 0) {
             Toast.makeText(this, "YOU LOSS", Toast.LENGTH_SHORT).show();
-            for(int btn:id_button){
+            for (int btn : id_button) {
                 button = findViewById(btn);
                 button.setEnabled(false);
             }
@@ -90,15 +90,16 @@ public class MagicBoxActivity extends Activity implements View.OnClickListener {
             button.setText(random.nextInt(10) + "");
 
             int a = Integer.parseInt(button.getText().toString());
-            sum+=a;
-            if (sum > 50){
-                Toast.makeText(this, "YOU WIN", Toast.LENGTH_SHORT).show();
-                for (int btn : id_button) {
-                    button = findViewById(btn);
-                    button.setEnabled(false);
-                }
-            }
-
+            sum += a;
         }
+
+        if (sum > 50) {
+            for (int btn : id_button) {
+                button = findViewById(btn);
+                button.setEnabled(false);
+            }
+            Toast.makeText(this, "YOU WIN", Toast.LENGTH_SHORT).show();
+        }
+        sum = 0;
     }
 }

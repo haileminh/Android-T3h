@@ -14,7 +14,7 @@
         android:text="@string/game"
         android:textAllCaps="true"
         android:textColor="#FF026659"
-        android:textSize="36sp"
+        android:textSize="28sp"
         android:textStyle="bold" />
 
     <TextView
@@ -26,7 +26,7 @@
         android:text="@string/magic_box"
         android:textAllCaps="true"
         android:textColor="#FF026659"
-        android:textSize="36sp"
+        android:textSize="28sp"
         android:textStyle="bold" />
 
     <TextView

@@ -50,7 +50,7 @@ public class NumberArt {
                 break;
             case RIGHT:
                 x++;
-                if (x >= width - SIZE) {
+                if (x >= width- SIZE) {
                     orient = LEFT;
                 }
                 break;

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MagicBoxGame</string>
+    <string name="game">game</string>
+    <string name="magic_box">magic box</string>
+    <string name="time">times:</string>
+    <string name="number">5</string>
+</resources>

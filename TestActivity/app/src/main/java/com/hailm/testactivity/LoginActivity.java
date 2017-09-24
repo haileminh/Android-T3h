@@ -1,4 +1,4 @@
-package com.hailm.activitydemo;
+package com.hailm.testactivity;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -11,23 +11,22 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 /**
- * Created by hai_l on 23/09/2017.
+ * Created by hai_l on 24/09/2017.
  */
 
 public class LoginActivity extends Activity implements View.OnClickListener, View.OnLongClickListener {
     private static final String TAG = "LoginActivity";
-    private EditText edtPhoneNumber;
     private EditText edtPassword;
+    private EditText edtPhoneNumber;
     private Button btnLogin;
     private TextView txtNumber;
     private int number = 0;
 
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Log.d(TAG, "onCreate: ");
         setContentView(R.layout.activity_login);
-
         initializeComponents();
         registerListener();
     }
@@ -39,42 +38,40 @@ public class LoginActivity extends Activity implements View.OnClickListener, Vie
         txtNumber = findViewById(R.id.txt_number);
     }
 
+
     private void registerListener() {
         btnLogin.setOnClickListener(this);
-        txtNumber.setOnClickListener(this);
         btnLogin.setOnLongClickListener(this);
-
+        txtNumber.setOnClickListener(this);
     }
 
     @Override
     protected void onStart() {
-        Log.d(TAG, "onStart: ");
         super.onStart();
+        Log.d(TAG, "onStart: ...");
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        Log.d(TAG, "onResume: ");
-
+        Log.d(TAG, "onResume: ...");
     }
 
     @Override
     protected void onPause() {
-        Log.d(TAG, "onPause: ");
+        Log.d(TAG, "onPause: ...");
         super.onPause();
-
     }
 
     @Override
     protected void onStop() {
-        Log.d(TAG, "onStop: ");
+        Log.d(TAG, "onStop: ....");
         super.onStop();
     }
 
     @Override
     protected void onDestroy() {
-        Log.d(TAG, "onDestroy: ");
+        Log.d(TAG, "onDestroy: ...");
         super.onDestroy();
     }
 
@@ -86,14 +83,12 @@ public class LoginActivity extends Activity implements View.OnClickListener, Vie
                 break;
             case R.id.txt_number:
                 addNumber();
-                break;
             default:
                 break;
         }
     }
 
     private void addNumber() {
-
         number += 1;
         txtNumber.setText(number + "");
     }
@@ -102,32 +97,30 @@ public class LoginActivity extends Activity implements View.OnClickListener, Vie
         String phone = edtPhoneNumber.getText().toString();
         String pass = edtPassword.getText().toString();
         if (phone.isEmpty()) {
-            edtPhoneNumber.setError("Phone number can not empty");
+            edtPhoneNumber.setError("Phone number is empty");
             return;
         }
 
         if (pass.isEmpty()) {
-            edtPassword.setError("Password can not empty");
+            edtPassword.setError("Password is empty");
             return;
         }
 
-        if (phone.equals("123") && pass.equals("abc")) {
-            Toast.makeText(this, "Login sucess", Toast.LENGTH_LONG).show();
+        if (phone.equals("123") && pass.equals("123")) {
+            Toast.makeText(this, "Login sucess", Toast.LENGTH_SHORT).show();
         } else {
-            Toast.makeText(this, "Login fail", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Login fail", Toast.LENGTH_SHORT).show();
         }
     }
 
     @Override
     public boolean onLongClick(View view) {
-        // Giữ thật lâu vào đối tượng
         switch (view.getId()) {
             case R.id.btn_login:
-                Toast.makeText(this, "Long Click", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, "Long click....", Toast.LENGTH_LONG).show();
                 return false;
             default:
-                return false; // neu false thì chuong trinh chay vao click
+                return false; // neu la fasle chuong trinh se chay vao click
         }
-
     }
 }

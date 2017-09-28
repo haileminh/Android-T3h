@@ -1,7 +1,6 @@
 package com.hailm.magicboxgame;
 
 import android.app.Activity;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.View;
@@ -12,7 +11,7 @@ import android.widget.Toast;
 import java.util.Random;
 
 /**
- * Created by hai_l on 24/09/2017.
+ * Created by hai_l on 26/09/2017.
  */
 
 public class MagicBoxActivity extends Activity implements View.OnClickListener {
@@ -26,7 +25,7 @@ public class MagicBoxActivity extends Activity implements View.OnClickListener {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_magicbox);
+        setContentView(R.layout.activity_magic);
 
         initializeComponents();
         registerListener();

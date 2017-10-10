@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ThreadLoadImages</string>
+    <string name="load">Load</string>
+
+    <string name="download">Download</string>
+</resources>

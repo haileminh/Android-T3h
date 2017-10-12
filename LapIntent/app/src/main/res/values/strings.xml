@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LabIntent</string>
+    <string name="lap_it">LapIt</string>
+    <string name="content_lap_it">The app where you can chat</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="display_name">Display Name...</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="get_started">Get Start</string>
+    <string name="terms_and_conditions">Terms and conditons</string>
+</resources>

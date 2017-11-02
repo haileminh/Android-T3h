@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1c2b3b"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="3"
+            android:background="#244754">
+
+            <ImageView
+                android:id="@+id/img_avatar"
+                android:layout_width="69dp"
+                android:layout_height="69dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/txt_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img_avatar"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:text="Mạnh mẽ yêu nhau 100 ngày"
+                android:textColor="#FFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_name"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="Tác giả: "
+                android:textColor="#fbb402"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_author"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="Thể loại: "
+                android:textColor="#fbb402"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_type"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="Trạng thái: "
+                android:textColor="#fbb402"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_chapters"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_status"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="Số chương: "
+                android:textColor="#fbb402"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_update_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_chapters"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="Ngày up: "
+                android:textColor="#fbb402"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_upload_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_update_date"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="Ngày cập nhật: "
+                android:textColor="#fbb402"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txt_contents"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="abc"
+            android:textColor="#afb4b9"
+            android:textSize="18sp" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="8dp"
+    android:background="#264b57"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/img_avatar"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/img_avatar"
+        android:text="Sứ mệnh hoàng đạo(12 chòm sao)"
+        android:textColor="#cb9a1f"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_chapters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_name"
+        android:layout_toRightOf="@id/img_avatar"
+        android:text="Chương 53"
+        android:textColor="#9fa4a7"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txt_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_name"
+        android:layout_toRightOf="@id/txt_chapters"
+        android:text=" - T/g: scor scor"
+        android:textColor="#9fa4a7"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txt_updateDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_chapters"
+        android:layout_toRightOf="@id/img_avatar"
+        android:text="Ngày cập nhật: 2017/06/03 21:52:59"
+        android:textColor="#9fa4a7"
+        android:textSize="14sp" />
+</RelativeLayout>

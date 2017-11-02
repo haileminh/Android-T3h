@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#42cc60"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img_photo"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_smile_icon1" />
+
+    <TextView
+        android:id="@+id/txt_photo_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_photo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Smile 1"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="36sp" />
+</RelativeLayout>

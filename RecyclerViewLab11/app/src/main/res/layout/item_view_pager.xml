@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#25313e"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#193042"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circle_img_avatar"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="centerCrop"
+                android:src="@drawable/anh2" />
+
+            <TextView
+                android:id="@+id/txt_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Mạnh mẽ anh yêu em 1 ngày"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txt_author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Tác giả: Diệu phi hạ"
+                android:textColor="#ffb802" />
+
+            <TextView
+                android:id="@+id/txt_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thể loại: Ngôn Tình, Truyện Teen"
+                android:textColor="#ffb802" />
+
+            <TextView
+                android:id="@+id/txt_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Trạng thải: Đang cập nhật"
+                android:textColor="#ffb802" />
+
+            <TextView
+                android:id="@+id/txt_chapters"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Số chương: 599"
+                android:textColor="#ffb802" />
+
+            <TextView
+                android:id="@+id/txt_update_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ngày up:"
+                android:textColor="#ffb802" />
+
+            <TextView
+                android:id="@+id/txt_upload_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ngày cập nhật:"
+                android:textColor="#ffb802" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#193042"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/txt_contents"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lê Minh Hải"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

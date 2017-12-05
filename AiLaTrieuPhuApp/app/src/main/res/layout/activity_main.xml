@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frame_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_background"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:padding="28dp">
+
+        <View
+            android:id="@+id/bg_circle_anim"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_circle_anim" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="32dp"
+            android:src="@drawable/icon_logo_app" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/ic_no_avatar" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/txt_khach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Khách"
+                android:textColor="#FFF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_thi_sinh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_khach"
+                android:layout_marginTop="4dp"
+                android:text="Thí sinh"
+                android:textColor="#e8e8e8"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/img_icon_money"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/txt_thi_sinh"
+                android:layout_marginTop="4dp"
+                android:src="@drawable/activity_profile_icon_money" />
+
+            <TextView
+                android:id="@+id/txt_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_thi_sinh"
+                android:layout_marginTop="4dp"
+                android:layout_toRightOf="@id/img_icon_money"
+                android:text="3,0 triệu"
+                android:textColor="#FFF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_achievement"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/txt_thi_sinh"
+                android:layout_marginTop="4dp"
+                android:layout_toRightOf="@id/txt_money"
+                android:src="@drawable/activity_profile_icon_achievement" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <ImageView
+            android:id="@+id/load"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="4dp"
+            android:src="@drawable/loading" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:background="#193042"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circle_images"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:src="@drawable/anh1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ác Ma Ca Ca"
+            android:textColor="#ffb802"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txt_chuong_tg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chương 53 - T/g: scor scor"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/txt_update_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ngày cập nhật:"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên bài hát"
+        android:textColor="#333"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_artist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_title"
+        android:text="Artist: hailm"
+        android:textColor="#c2bfbf" />
+
+    <TextView
+        android:id="@+id/txt_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_title"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/txt_artist"
+        android:text="4: 59"
+        android:textColor="#c2bfbf" />
+</RelativeLayout>

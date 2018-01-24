@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/img_ava"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@mipmap/ic_launcher" />
+
+
+    <RadioGroup
+        android:id="@+id/rg_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rb_dangky"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Đăng ký"
+            android:textColor="@android:color/black" />
+
+        <RadioButton
+            android:id="@+id/rb_dangnhap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:checked="true"
+            android:text="Đăng nhập"
+            android:textColor="@android:color/black" />
+
+    </RadioGroup>
+
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_input"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="8dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="#9FA8DA" />
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_input"
+        android:hint="Mât khẩu"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="#9FA8DA" />
+
+    <EditText
+        android:id="@+id/edt_retype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_input"
+        android:hint="Nhập lại mât khẩu"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="#9FA8DA"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_register"
+        android:text="Đăng Nhập"
+        android:textColor="@android:color/white" />
+
+
+</LinearLayout>

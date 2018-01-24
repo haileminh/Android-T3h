@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/ic_addm" />
+
+    <EditText
+        android:id="@+id/edt_tensanpham"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_input"
+        android:hint="Tên sản phẩm"
+        android:inputType="textEmailAddress"
+        android:padding="16dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="#9FA8DA" />
+    <LinearLayout
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        android:gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_input">
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+        </Spinner>
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/btn_themsanpham"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_register"
+        android:padding="16dp"
+        android:text="Thêm sản phẩm"
+        android:textColor="@android:color/white" />
+
+
+</LinearLayout>

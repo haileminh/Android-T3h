@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+
+    <ImageView
+        android:id="@+id/img_ava"
+        android:layout_width="120sp"
+        android:layout_height="120sp"
+        android:layout_marginRight="8dp"
+        android:src="@mipmap/ic_launcher" />
+    <TextView
+        android:id="@+id/txt_UserID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="UserID"
+        android:textColor="#4052b5"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/txt_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="ID"
+        android:textColor="#4052b5"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edt_product_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_input"
+        android:hint="Tên sản phẩm"
+        android:inputType="textEmailAddress"
+        android:padding="16dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="#9FA8DA" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_input"
+        android:gravity="top"
+        android:padding="8dp">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+        </Spinner>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_register"
+        android:padding="16dp"
+        android:text="Sửa sản phẩm"
+        android:textColor="@android:color/white" />
+
+
+</LinearLayout>
